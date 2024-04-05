@@ -3,6 +3,7 @@
 /* ====================== [ Start Footer ] ====================== */
 
 .footer-half{
+    background: $main-bg;
     position: relative;
     z-index: 2;
 
@@ -13,7 +14,6 @@
         left: 0;
         height: 100%;
         width: 50%;
-        background: #151921;
         z-index: -1;
     }
 
@@ -130,7 +130,7 @@
     .copyrights{
         margin-top: 50px;
         padding: 30px 0;
-        background: #13161d;
+        background: $main-bg;
 
         p{
             font-size: 12px;

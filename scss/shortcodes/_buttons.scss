@@ -137,6 +137,40 @@
 	}
 }
 
+.btn-border {
+	display: inline-flex;
+	position: relative;
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: -2px;
+		left: -2px;
+		right: -2px;
+		bottom: -2px;
+		border-radius: 30px;
+		border: 2px solid transparent;
+		background: linear-gradient(114deg, rgba(246,92,0,1) 16%, rgba(157,0,208,1) 49%, rgba(148,255,229,1) 86%) border-box;
+		mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+		-webkit-mask-composite: destination-out;
+		mask-composite: exclude;
+	}
+
+	& > .custom-btn {
+		border: none !important;
+	
+		&:hover{
+			span{
+				color: #FFF !important;
+			}
+		}
+	
+		&:after{
+			background: $main-bg;
+		}
+	}
+}
+
 .simple-btn{
 	position: relative;
 	padding: 7px;

@@ -303,6 +303,12 @@
 }
 
 .work-carousel{
+	background: $main-bg;
+
+	.image-link {
+		width: 100%;
+		height: 100%;
+	}
 
 	.swiper-slide{
 		padding: 0px 15px;
@@ -509,6 +515,10 @@
 
 	&.not-sub{
 		background: #0c0f16;
+	}
+
+	&.bg-custom{
+		background: $main-bg;
 	}
 }
 

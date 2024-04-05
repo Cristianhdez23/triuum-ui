@@ -3,6 +3,7 @@
 /* ====================== [ Start services ] ====================== */
 
 .services{
+	background: $main-bg;
 	position: relative;
 
 	.container{
@@ -15,21 +16,22 @@
 		text-align: center;
 
 		&:nth-of-type(2){
-			background: #181b21;
+			background: #010925;
 		}
 
 		&:nth-of-type(3){
-			background: #1a1e25;
+			background: #010a2c;
 		}
 
 		&:last-of-type{
-			background: #20242c;
+			background: #010925;
 		}
 
 		&.bg-img{
 			position: relative;
 			text-align: left;
 			z-index: 2;
+			background-position: center;
 
 			&:after{
 				content: '';
