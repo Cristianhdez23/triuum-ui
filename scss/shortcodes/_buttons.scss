@@ -156,8 +156,19 @@
 		mask-composite: exclude;
 	}
 
+	&-no-radius {
+		&:before {
+			content: "";
+			border-radius: 0;
+		}
+	}
+
 	& > .custom-btn {
 		border: none !important;
+
+		& > span {
+			text-transform: initial;
+		}
 	
 		&:hover{
 			span{

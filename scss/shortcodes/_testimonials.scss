@@ -297,14 +297,28 @@
 
 	.testim-box{
 		position: relative;
-		background: $main-color;
+		background: $main-bg;
 		padding: 80px 40px;
 		margin-bottom: -120px;
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			border: 5px solid transparent;
+			background: linear-gradient(114deg, rgba(246,92,0,1) 16%, rgba(157,0,208,1) 49%, rgba(148,255,229,1) 86%) border-box;
+			mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+			-webkit-mask-composite: destination-out;
+			mask-composite: exclude;
+		}
 
 		.head-box{
 
 			h6{
-				color: #0c0f16;
+				color: #fff;
 				font-size: 12px;
 				font-weight: 300;
 				text-transform: uppercase;
@@ -313,7 +327,7 @@
 			}
 
 			h4{
-				color: #0c0f16;
+				color: #fff;
 				margin-bottom: 40px;
 			}
 		}
@@ -321,7 +335,7 @@
 		.item{
 
 			p{
-				color: #333;
+				color: #fff;
 				font-size: 17px;
 				margin-bottom: 30px;
 				padding-bottom: 30px;
@@ -348,7 +362,7 @@
 					padding-left: 15px;
 
 					.author-name{
-						color: #0c0f16;
+						color: #fff;
 						font-size: 16px;
 						margin-bottom: 5px;
 						letter-spacing: 2px;
@@ -356,7 +370,7 @@
 					}
 
 					.author-details{
-						color: #0c0f16;
+						color: #fff;
 						font-size: 13px;
 						font-weight: 300;
 						text-transform: uppercase;
@@ -373,10 +387,10 @@
 			width: 7px;
 			height: 7px;
 			border-radius: 50%;
-			border: 1px solid #0c0f16;
+			border: 1px solid #fff;
 
 			&.slick-active{
-				background: #0c0f16;
+				background: #fff;
 			}
 
 			button{

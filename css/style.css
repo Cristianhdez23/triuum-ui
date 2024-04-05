@@ -148,6 +148,10 @@ a:hover, span:hover {
   font-family: "Barlow Condensed", sans-serif;
 }
 
+.custom-font-main {
+  font-size: 14px;
+}
+
 /* ====================== [ End Typography  ] ====================== */
 /* ====================== [ Start Helper Classes  ] ====================== */
 .o-hidden {
@@ -1495,8 +1499,15 @@ body {
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
 }
+.btn-border-no-radius:before {
+  content: "";
+  border-radius: 0;
+}
 .btn-border > .custom-btn {
   border: none !important;
+}
+.btn-border > .custom-btn > span {
+  text-transform: initial;
 }
 .btn-border > .custom-btn:hover span {
   color: #FFF !important;
@@ -1976,6 +1987,7 @@ body {
   transform: translateY(20px);
   transition: all 0.4s;
   transition-delay: 0.8s;
+  font-size: 18px;
 }
 .slider .parallax-slider .caption .btn-curve {
   opacity: 0;
@@ -3005,7 +3017,6 @@ header.simpl .caption .btn-curve {
   margin-bottom: 20px;
 }
 .about .ftbox ul li h6 {
-  font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -4460,12 +4471,26 @@ header.simpl .caption .btn-curve {
 }
 .block-sec .testim-box {
   position: relative;
-  background: #94FFE5;
+  background: #00071E;
   padding: 80px 40px;
   margin-bottom: -120px;
 }
+.block-sec .testim-box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 5px solid transparent;
+  background: linear-gradient(114deg, rgb(246, 92, 0) 16%, rgb(157, 0, 208) 49%, rgb(148, 255, 229) 86%) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+          mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
 .block-sec .testim-box .head-box h6 {
-  color: #0c0f16;
+  color: #fff;
   font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
@@ -4473,11 +4498,11 @@ header.simpl .caption .btn-curve {
   margin-bottom: 10px;
 }
 .block-sec .testim-box .head-box h4 {
-  color: #0c0f16;
+  color: #fff;
   margin-bottom: 40px;
 }
 .block-sec .testim-box .item p {
-  color: #333;
+  color: #fff;
   font-size: 17px;
   margin-bottom: 30px;
   padding-bottom: 30px;
@@ -4499,14 +4524,14 @@ header.simpl .caption .btn-curve {
   padding-left: 15px;
 }
 .block-sec .testim-box .item .info .cont .author-name {
-  color: #0c0f16;
+  color: #fff;
   font-size: 16px;
   margin-bottom: 5px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 .block-sec .testim-box .item .info .cont .author-details {
-  color: #0c0f16;
+  color: #fff;
   font-size: 13px;
   font-weight: 300;
   text-transform: uppercase;
@@ -4518,10 +4543,10 @@ header.simpl .caption .btn-curve {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  border: 1px solid #0c0f16;
+  border: 1px solid #fff;
 }
 .block-sec .testim-box .slick-dots li.slick-active {
-  background: #0c0f16;
+  background: #fff;
 }
 .block-sec .testim-box .slick-dots li button {
   display: none;
@@ -5039,6 +5064,10 @@ header.simpl .caption .btn-curve {
   color: #fff;
   -webkit-text-stroke-width: 0;
 }
+.call-action .content .custom-title {
+  -webkit-text-stroke-width: 0;
+  color: #fff;
+}
 .call-action .content p {
   font-size: 17px;
   font-weight: 300;
@@ -5050,7 +5079,7 @@ header.simpl .caption .btn-curve {
 .call-action .btn-curve span {
   font-size: 15px;
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform: initial;
 }
 .call-action .btn-curve:hover span {
   color: #0c0f16;
@@ -5243,7 +5272,7 @@ header.simpl .caption .btn-curve {
   margin-bottom: 30px;
 }
 .footer-half .cont .logo {
-  width: 55px;
+  width: 120px;
   margin-bottom: 30px;
 }
 .footer-half .cont .con-info li {
