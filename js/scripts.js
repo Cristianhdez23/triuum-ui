@@ -124,7 +124,10 @@ $(function () {
     var parallaxSlider;
     var parallaxSliderOptions = {
         speed: 1000,
-        autoplay: true,
+        autoplay: {
+            delay: 13000,
+            disableOnInteraction: true
+        },
         parallax: true,
         loop: true,
 

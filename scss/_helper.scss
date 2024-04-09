@@ -133,6 +133,15 @@
   align-items: center;
 }
 
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-justify-right {
+  justify-content: flex-end;
+}
+
 .primery-shadow {
   box-shadow: 0px 8px 30px -4px rgba(0, 0, 0, .1);
 }
@@ -244,6 +253,10 @@
 }
 
 .fz-50 {
+  font-size: 50px !important;
+}
+
+.fz-60 {
   font-size: 50px !important;
 }
 
@@ -371,6 +384,10 @@
 
 .text-i {
   font-style: italic;
+}
+
+.text-ini {
+  text-transform: initial !important;
 }
 
 /*-------------------------------------------------------

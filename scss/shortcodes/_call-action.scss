@@ -1,141 +1,139 @@
-
-
 /* ====================== [ Start Call To Action  ] ====================== */
 
-.call-action{
-	background: $main-bg;
+.call-action {
+  // background: $main-bg;
+  // background: linear-gradient(114deg, rgba(246,92,0,1) 16%, rgba(157,0,208,1) 49%, rgba(148,255,229,1) 86%) border-box;
 
-	.content{
+  .content {
+    h6 {
+      color: $main-color;
+      font-size: 15px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      margin-bottom: 10px;
 
-		h6{
-			color: $main-color;
-			font-size: 13px;
-			font-weight: 400;
-			text-transform: uppercase;
-			letter-spacing: 4px;
-			margin-bottom: 10px;
+      span {
+        color: $main-color;
+      }
+    }
 
-			span{
-				color: $main-color;
-			}
-		}
+    h2 {
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 1.2;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #fff;
+      color: transparent;
 
-		h2{
-			font-weight: 700;
-			font-size: 65px;
-			line-height: 1.2;
-			text-transform: uppercase;
-			margin-bottom: 20px;
-			-webkit-text-stroke-width: 1px;
-			-webkit-text-stroke-color: #fff;
-			color: transparent;
-			
-			span{
-				color: transparent;
-			}
+      span {
+        color: transparent;
+      }
 
-			b{
-				
-				span{
-					color: #fff;
-					-webkit-text-stroke-width: 0;
-				}
-			}
-		}
+      b {
+        span {
+          color: #fff;
+          -webkit-text-stroke-width: 0;
+        }
+      }
+    }
 
-		.custom-title {
-			-webkit-text-stroke-width: 0;
-			color: #fff;
-		}
+    .custom-title {
+      -webkit-text-stroke-width: 0;
+      color: #fff;
+    }
 
-		p{
-			font-size: 17px;
-			font-weight: 300;
-		}
-	}
+    .custom-title-ls {
+      letter-spacing: 1px !important;
+    }
 
-	.btn-curve{
-		border: 2px solid;
-		line-height: 2;
-		
-		span{
-			font-size: 15px;
-			font-weight: 700;
-			text-transform: initial;
-		}
+    p {
+      font-size: 17px;
+      font-weight: 300;
+    }
+  }
 
-		&:hover{
+  .btn-curve {
+    border: 2px solid;
+    line-height: 2;
 
-			span{
-				color: #0c0f16;
-			}
-		}
-	}
+    span {
+      font-size: 15px;
+      font-weight: 700;
+      text-transform: initial;
+    }
 
-	.tlink{
-		margin-left: auto;
-		border-bottom: 1px solid #eee;
-	}
+    &:hover {
+      span {
+        color: #0c0f16;
+      }
+    }
+  }
 
-	&.next{
-		position: relative;
-		z-index: 2;
-		overflow: hidden;
+  .tlink {
+    margin-left: auto;
+    border-bottom: 1px solid #eee;
+  }
 
-		&:after{
-			display: none;
-		}
+  &.next {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
 
-		&:before{
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			display: block;
-			background: #0a0a0a;
-			opacity: 1;
-			transition: all .5s;
-		}
+    &:after {
+      display: none;
+    }
 
-		.content{
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: block;
+      background: #0a0a0a;
+      opacity: 1;
+      transition: all 0.5s;
+    }
 
-			h2{
-				font-size: 5vw;
-				font-weight: 700;
+    .content {
+      h2 {
+        font-size: 5vw;
+        font-weight: 700;
 
-				b{
-					font-weight: 700;
-				}
-			}
-		}
+        b {
+          font-weight: 700;
+        }
+      }
+    }
 
-		.nxt-img{
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			transform: scale(1.4);
-			background-size: cover;
-			background-position: center;
-			z-index: -1;
-			transition: all 1s linear;
-		}
+    .nxt-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transform: scale(1.4);
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+      transition: all 1s linear;
+    }
 
-		&:hover{
+    &:hover {
+      &:before {
+        opacity: 0.9;
+      }
 
-			&:before{
-				opacity: .9;
-			}
-
-			.nxt-img{
-				transform: scale(1);
-				transition: all 10s linear;
-			}
-		}
-	}
+      .nxt-img {
+        transform: scale(1);
+        transition: all 10s linear;
+      }
+    }
+  }
 }
 
 /* ====================== [ End Call To Action  ] ====================== */

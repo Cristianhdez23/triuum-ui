@@ -275,6 +275,15 @@ a:hover, span:hover {
   align-items: center;
 }
 
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-justify-right {
+  justify-content: flex-end;
+}
+
 .primery-shadow {
   box-shadow: 0px 8px 30px -4px rgba(0, 0, 0, 0.1);
 }
@@ -386,6 +395,10 @@ a:hover, span:hover {
 }
 
 .fz-50 {
+  font-size: 50px !important;
+}
+
+.fz-60 {
   font-size: 50px !important;
 }
 
@@ -513,6 +526,10 @@ a:hover, span:hover {
 
 .text-i {
   font-style: italic;
+}
+
+.text-ini {
+  text-transform: initial !important;
 }
 
 /*-------------------------------------------------------
@@ -2163,14 +2180,17 @@ body {
   z-index: 8;
 }
 .slider .social-icon a {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
   text-align: center;
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.05);
   color: #fff;
-  font-size: 13px;
+  font-size: 24px;
+}
+.slider .social-icon a:not(:last-child) {
+  margin-right: 5px;
 }
 
 header.simpl {
@@ -4473,7 +4493,6 @@ header.simpl .caption .btn-curve {
   position: relative;
   background: #00071E;
   padding: 80px 40px;
-  margin-bottom: -120px;
 }
 .block-sec .testim-box:before {
   content: "";
@@ -5033,12 +5052,9 @@ header.simpl .caption .btn-curve {
 
 /* ====================== [ End Blog ] ====================== */
 /* ====================== [ Start Call To Action  ] ====================== */
-.call-action {
-  background: #00071E;
-}
 .call-action .content h6 {
   color: #94FFE5;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -5067,6 +5083,9 @@ header.simpl .caption .btn-curve {
 .call-action .content .custom-title {
   -webkit-text-stroke-width: 0;
   color: #fff;
+}
+.call-action .content .custom-title-ls {
+  letter-spacing: 1px !important;
 }
 .call-action .content p {
   font-size: 17px;
@@ -5583,9 +5602,6 @@ header.simpl .caption .btn-curve {
   }
   .services .step-item {
     margin: 25px 0;
-  }
-  .block-sec .testim-box {
-    margin-bottom: 120px;
   }
   .block-sec .showreel {
     background: #13161d;
