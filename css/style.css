@@ -258,6 +258,24 @@ a:hover, span:hover {
   border-radius: 50%;
 }
 
+.border-left-custom {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.border-left-custom::after {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.border-right-custom {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.border-right-custom::after {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
 .unlist {
   list-style: none;
 }
@@ -297,7 +315,7 @@ a:hover, span:hover {
 					 text color
 -------------------------------------------------------*/
 .text-white {
-  color: #FFF;
+  color: #fff;
 }
 
 .text-black {
@@ -306,6 +324,21 @@ a:hover, span:hover {
 
 .text-extra-light-gray {
   color: #b7b7b7;
+}
+
+/*-------------------------------------------------------
+					 text align
+-------------------------------------------------------*/
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
 }
 
 /*-------------------------------------------------------
@@ -1299,7 +1332,7 @@ body {
   font-weight: 300;
   font-size: 17px;
   text-transform: uppercase;
-  letter-spacing: 14px;
+  letter-spacing: 4px;
   margin-bottom: 5px;
 }
 .sec-head h3 {
@@ -1574,7 +1607,7 @@ body {
   color: #fff;
 }
 .navbar .navbar-nav .nav-link {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 500;
   color: #fff;
   padding: 15px 7px;
@@ -1677,6 +1710,7 @@ body {
 }
 .navbar .logo {
   width: 120px;
+  display: flex;
 }
 
 .nav-scroll {
@@ -3497,6 +3531,15 @@ header.simpl .caption .btn-curve {
   margin-bottom: 30px;
 }
 
+.clients-brand {
+  background: #010a2c;
+}
+.clients-brand .brands {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
 .clients-brand .brands:hover .img {
   transform: scale(0);
   opacity: 0;
@@ -3525,10 +3568,10 @@ header.simpl .caption .btn-curve {
   transition: all 0.3s;
 }
 .clients-brand .img {
-  max-width: 85px;
-  margin: auto;
+  max-width: 150px;
   position: relative;
   transition: all 0.4s;
+  opacity: 0.6;
 }
 
 /* ====================== [ End brands ] ====================== */
@@ -3863,12 +3906,13 @@ header.simpl .caption .btn-curve {
   right: 15px;
 }
 .work-carousel .content .bgbox {
-  background: #13161d;
+  background: #010a2c;
   padding: 20px 20px 20px 30px;
   border-radius: 0 0 10px 10px;
 }
 .work-carousel.caroul .content .item-img {
-  height: 400px;
+  height: 350px;
+  background-position: center;
 }
 .work-carousel.caroul.simpl .content {
   position: relative;
@@ -4502,6 +4546,7 @@ header.simpl .caption .btn-curve {
   right: 0;
   bottom: 0;
   border: 5px solid transparent;
+  border-radius: 20px;
   background: linear-gradient(114deg, rgb(246, 92, 0) 16%, rgb(157, 0, 208) 49%, rgb(148, 255, 229) 86%) border-box;
   -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
           mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
@@ -4625,6 +4670,13 @@ header.simpl .caption .btn-curve {
   box-shadow: 0px 10px 30px -5px rgba(52, 60, 70, 0.5);
   border-radius: 5px;
   overflow: hidden;
+}
+.block-sec .custom-bg-logo {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.06;
+  left: -25%;
 }
 
 .clients-brand .item a {
@@ -5636,6 +5688,9 @@ header.simpl .caption .btn-curve {
   }
 }
 @media screen and (max-width: 767px) {
+  .mouse-cursor {
+    display: none !important;
+  }
   .sm-mb10 {
     margin-bottom: 10px;
   }
@@ -5884,6 +5939,10 @@ header.simpl .caption .btn-curve {
   .circle-slide .swiper-slide .bg-img {
     height: 280px !important;
     width: 280px !important;
+  }
+  .custom-bg-logo {
+    left: 0 !important;
+    bottom: 10%;
   }
   .showcase-carus.circle-slide .caption h1,
   .showcase-carus.circle-slide .copy-cap h1 {

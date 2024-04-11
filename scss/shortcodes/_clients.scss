@@ -44,8 +44,13 @@
 }
 
 .clients-brand{
+	background: $secondary-bg;
 
 	.brands{
+		display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
 
 		&:hover{
 
@@ -83,10 +88,10 @@
 	}
 
 	.img{
-		max-width: 85px;
-		margin: auto;
+		max-width: 150px;
 		position: relative;
 		transition: all .4s;
+		opacity: 0.6;
 	}
 }
 

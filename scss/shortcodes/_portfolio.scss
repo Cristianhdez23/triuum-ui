@@ -417,7 +417,7 @@
 		}
 
 		.bgbox{
-			background: #13161d;
+			background: $secondary-bg;
 			padding: 20px 20px 20px 30px;
 			border-radius: 0 0 10px 10px;
 		}
@@ -428,7 +428,8 @@
 		.content{
 	
 			.item-img {
-				height: 400px;
+				height: 350px;
+    		background-position: center;
 			}
 		}
 
