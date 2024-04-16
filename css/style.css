@@ -3540,10 +3540,6 @@ header.simpl .caption .btn-curve {
   align-items: center;
   justify-content: center;
 }
-.clients-brand .brands:hover .img {
-  transform: scale(0);
-  opacity: 0;
-}
 .clients-brand .brands:hover .link {
   opacity: 1 !important;
   transition: all 0;
@@ -5690,6 +5686,9 @@ header.simpl .caption .btn-curve {
 @media screen and (max-width: 767px) {
   .mouse-cursor {
     display: none !important;
+  }
+  .center-mobile {
+    justify-content: center !important;
   }
   .sm-mb10 {
     margin-bottom: 10px;
