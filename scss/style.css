@@ -1342,6 +1342,13 @@ body {
   letter-spacing: 4px;
   text-shadow: 0 8px rgba(255, 255, 255, 0.05);
 }
+.sec-head .h3-styles {
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 0 8px rgba(255, 255, 255, 0.05);
+}
 .sec-head .tbg {
   position: absolute;
   bottom: 0;
@@ -2698,11 +2705,6 @@ header.simpl .caption .btn-curve {
   font-weight: 200;
   font-size: 24px;
   line-height: 1.8;
-}
-.works-header .capt h2 {
-  font-size: 60px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
 }
 .works-header .capt h2 span {
   display: block;
@@ -5265,7 +5267,10 @@ header.simpl .caption .btn-curve {
   border: 0;
 }
 
-.contact .form input, .contact .form textarea {
+.contact {
+  background: #00071E;
+}
+.contact .form input, .contact .form textarea, .contact .form select {
   color: #fff;
   width: 100%;
   padding: 15px 0;
@@ -5299,14 +5304,14 @@ header.simpl .caption .btn-curve {
   line-height: 1.7;
 }
 .contact .cont-info .social a {
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
   text-align: center;
   background: rgba(255, 255, 255, 0.01);
   border-radius: 50%;
   margin-right: 5px;
-  font-size: 13px;
+  font-size: 24px;
 }
 
 .map {
@@ -5354,14 +5359,14 @@ header.simpl .caption .btn-curve {
   margin-top: 40px;
 }
 .footer-half .cont .social-icon .social a {
-  width: 45px;
-  height: 45px;
-  line-height: 45px;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
   text-align: center;
   background: rgba(255, 255, 255, 0.01);
   border-radius: 50%;
   margin-right: 5px;
-  font-size: 13px;
+  font-size: 24px;
   opacity: 0.6;
 }
 .footer-half .subscribe p {
@@ -5682,6 +5687,18 @@ header.simpl .caption .btn-curve {
   .next-prog .box .copy-cap h1 {
     font-size: 40px;
   }
+  .border-left-custom {
+    border-radius: 0;
+  }
+  .border-left-custom::after {
+    border-radius: 0;
+  }
+  .border-right-custom {
+    border-radius: 0;
+  }
+  .border-right-custom::after {
+    border-radius: 0;
+  }
 }
 @media screen and (max-width: 767px) {
   .mouse-cursor {
@@ -5855,9 +5872,6 @@ header.simpl .caption .btn-curve {
     margin: auto !important;
     left: 0;
   }
-  .works-header .capt h2 {
-    font-size: 40px;
-  }
   .slider.fixed-slider,
   .works-header.hfixd {
     position: static;
@@ -5873,6 +5887,9 @@ header.simpl .caption .btn-curve {
     margin-top: 0;
   }
   .sec-head h3 {
+    font-size: 45px;
+  }
+  .sec-head .h3-styles {
     font-size: 45px;
   }
   .sec-head h6 {
@@ -5947,11 +5964,10 @@ header.simpl .caption .btn-curve {
   .showcase-carus.circle-slide .copy-cap h1 {
     font-size: 40px;
   }
-  .works-header .capt h2 {
-    font-size: 30px;
-    letter-spacing: 1px;
-  }
   .sec-head h3 {
+    font-size: 35px;
+  }
+  .sec-head .h3-styles {
     font-size: 35px;
   }
   .about .blc-img .skills-circle {

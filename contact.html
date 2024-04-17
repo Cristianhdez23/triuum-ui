@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
 
@@ -12,7 +12,7 @@
     <meta name="author" content="" />
 
     <!-- Title  -->
-    <title>Avo</title>
+    <title>Triuum</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" />
@@ -28,6 +28,10 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
 
     <!-- Plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
@@ -76,7 +80,8 @@
 
             <!-- Logo -->
             <a class="logo" href="#">
-                <img src="img/logo-light.png" alt="logo">
+                <!-- <img src="img/logo-light.png" alt="logo"> -->
+                <img src="img/logo-triuum.png" alt="logo triuum">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -143,19 +148,15 @@
 
     <!-- ==================== Start header ==================== -->
 
-    <header class="works-header fixed-slider hfixd valign">
+    <header class="works-header fixed-slider hfixd valign bg-img" data-background="img/contact/header-contact.jpg" data-overlay-dark="7">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-9 col-md-11 static">
                     <div class="capt mt-50">
-                        <div class="parlx">
-                            <h2 class="custom-font"><span>Let's</span>Talk About Your project.</h2>
-                            <p>Feel free to ask me any question or let’s do to talk about
-                                our future collaboration.</p>
-                        </div>
-
-                        <div class="bactxt custom-font valign">
-                            <span class="full-width">Contact</span>
+                        <div class="sec-head text-center mb-0">
+                            <h6 class="wow fadeIn " data-wow-delay=".5s">Let's talk</h6>
+                            <h2 class="wow text-ini ls0 h3-styles" >Hello!</h3>
+                            <p class="fz-18">We would love to learn more about you and collaborate on building together.</p>
                         </div>
                     </div>
                 </div>
@@ -178,7 +179,7 @@
                     <div class="col-lg-6">
                         <div class="form md-mb50">
 
-                            <h4 class="extra-title mb-50">Get In Touch.</h4>
+                            <h4 class="extra-title mb-50">Talk about your project.</h4>
 
                             <form id="contact-form" method="post" action="contact.php">
 
@@ -197,11 +198,23 @@
                                     </div>
 
                                     <div class="form-group">
+                                        <select name="country" id="form_country">
+                                            <option value="" disabled>--Please choose an option--</option>
+                                            <option value="colombia">Colombia</option>
+                                            <option value="españa">España</option>
+                                            <option value="otro">Otro</option>
+                                          </select>
+                                    </div>
+
+                                    <div class="form-group">
                                         <textarea id="form_message" name="message" placeholder="Message" rows="4"
                                             required="required"></textarea>
                                     </div>
 
-                                    <button type="submit" class="btn-curve btn-lit"><span>Send Message</span></button>
+                                    
+                                    <div class="mt-30 btn-border">
+                                        <button type="submit" class="btn-curve btn-lit btn-radius custom-btn"><span>Send Message</span></button>
+                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -209,31 +222,15 @@
                     <div class="col-lg-5 offset-lg-1">
                         <div class="cont-info">
                             <h4 class="extra-title mb-50">Contact Info.</h4>
-                            <h3 class="custom-font wow" data-splitting>Let's Talk.
+                            <h3 class="wow" data-splitting>Let's Talk.
                             </h3>
                             <div class="item mb-40">
-                                <h5><a href="#0">Email@example.com</a></h5>
-                                <h5>+4.930.705.5448</h5>
-                            </div>
-                            <h3 class="custom-font wow" data-splitting>Visit Us.
-                            </h3>
-                            <div class="item">
-                                <h6>295 Witting Streets Suite 666,
-                                    <br>Melbourne, Australia</h6>
+                                <h5><a href="mailto:hello@triuum.com">hello@triuum.com</a></h5>
+                                <h5>+1234567899</h5>
                             </div>
                             <div class="social mt-50">
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-pinterest"></i>
-                                </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-behance"></i>
-                                </a>
+                                <a href="https://www.linkedin.com/company/triuum" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.instagram.com/triuum.it" target="_blank"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -244,19 +241,12 @@
         <!-- ==================== End Contact ==================== -->
 
 
-        <!-- ==================== Start Map ==================== -->
-
-        <div class="map" id="ieatmaps"></div>
-
-        <!-- ==================== End Map ==================== -->
-
-
         <!-- ==================== Start Footer ==================== -->
 
         <footer class="footer-half sub-bg">
             <div class="container">
                 <div class="copyrights text-center mt-0">
-                    <p>© 2020, Avo Template. Made with passion by <a href="#0">UI-ThemeZ</a>.</p>
+                    <p>Copyright © 2024 Triuum | All Rights Reserved</p>
                 </div>
             </div>
         </footer>

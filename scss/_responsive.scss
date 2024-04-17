@@ -350,6 +350,22 @@
     .next-prog .box .copy-cap h1{
         font-size: 40px;
     }
+
+    .border-left-custom {
+        border-radius: 0;
+      
+        &::after {
+          border-radius: 0;
+        }
+      }
+      
+      .border-right-custom {
+        border-radius: 0;
+      
+        &::after {
+            border-radius: 0;
+        }
+      }
 }
 
 @media screen and (max-width: $tablet-sm-screen) {
@@ -577,9 +593,6 @@
         left: 0;
     }
 
-    .works-header .capt h2{
-        font-size: 40px;
-    }
 
     .slider.fixed-slider,
     .works-header.hfixd{
@@ -600,6 +613,10 @@
     }
 
     .sec-head h3{
+        font-size: 45px;
+    }
+
+    .sec-head .h3-styles{
         font-size: 45px;
     }
 
@@ -704,12 +721,12 @@
         font-size: 40px;
     }
 
-    .works-header .capt h2{
-        font-size: 30px;
-        letter-spacing: 1px;
-    }
 
     .sec-head h3{
+        font-size: 35px;
+    }
+
+    .sec-head .h3-styles{
         font-size: 35px;
     }
 
