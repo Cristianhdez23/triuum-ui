@@ -7,8 +7,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Avo onepage themeforest" />
-    <meta name="description" content="Avo - Onepage Multi-Purpose HTML5 Template" />
+    <meta name="keywords" content="Triuum Digital Experience empathy-driven development" />
+    <meta name="description" content="Triuum - Meaningful & Successful Digital Experience. It's not just about technology; it's about empathy-driven development." />
     <meta name="author" content="" />
 
     <!-- Title  -->
@@ -81,7 +81,6 @@
 
             <!-- Logo -->
             <a class="logo" href="#">
-                <!-- <img src="img/logo-light.png" alt="logo"> -->
                 <img src="img/logo-triuum.png" alt="logo triuum">
             </a>
 
@@ -128,17 +127,20 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html" data-i18n="NAVBAR_ITEM_Contact"></a>
                     </li>
                 </ul>
                 <div class="search">
-                    <span class="icon pe-7s-search cursor-pointer"></span>
-                    <div class="search-form text-center custom-font">
-                        <form>
-                            <input type="text" name="search" placeholder="Search">
-                        </form>
-                        <span class="close pe-7s-close cursor-pointer"></span>
-                    </div>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle no-padding no-margin" data-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false" data-i18n="main_language"></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="index.html" onclick="changeLanguage('es')">Español</a>
+                                <a class="dropdown-item" href="index.html" onclick="changeLanguage('en')">English</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
