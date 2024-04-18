@@ -936,7 +936,7 @@ async function changeLanguage(lang) {
 }
 
 function detectLanguage(text) {
-    const upperText = text.toUpperCase();
+    const upperText = text?.toUpperCase();
 
     switch (upperText) {
         case "ES":
