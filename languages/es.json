@@ -1,12 +1,69 @@
 {
   "NAVBAR_ITEM_Contact": "Contacto",
 
+  "footer-address": "Address : ",
+  "footer-phone": "Phone : ",
+  "footer-social-title": "Follow Us",
+  "footer-copyright": "Copyright © 2024 Triuum | All Rights Reserved",
 
-  "keyDeep": {
-    "inner": "value es"
-  },
-  "main_language": "Español",
-  "welcome_message": "مرحبًا بكم في موقعنا!",
-  "about_us": "اعرف المزيد عنا...",
-  "footer_text": "© 2023 جميع الحقوق محفوظة."
+  "home-slider-one-title-upper": "Meaningful & Successful",
+  "home-slider-one-title-lower": "Digital Experiences",
+  "home-slider-one-title-description": "At Triuum, we firmly believe that technology has the power to enhance people's lives.",
+  "home-slider-one-title-cta": "Discover more",
+
+  "home-slider-two-title-upper": "Digital",
+  "home-slider-two-title-lower": "Transformation",
+  "home-slider-two-title-description": "We help businesses transform their digital presence by creating seamless, user-friendly experiences across all touchpoints.",
+  "home-slider-two-title-cta": "Find out how",
+
+  "home-slider-three-title-upper": "Crafting Digital",
+  "home-slider-three-title-lower": "Experiences with Empathy",
+  "home-slider-three-title-description": "We believe that an exceptional digital experience begins with a profound understanding of the user, their desires, expectations, and needs. It's not just about technology; it's about empathy-driven development.",
+  "home-slider-three-title-cta": "Start building with u",
+
+  "home-about-us-subtitle": "About Us",
+  "home-about-us-title": "We’re Triuum",
+  "home-about-us-description": "Grounded in personalization and innovation, we are driven towards crafting technological solutions that make a positive global impact, staying at the forefront of concepts and continuously evolving.",
+  "home-about-us-value-one": "We team up",
+  "home-about-us-value-two": "We create",
+  "home-about-us-value-three": "We Iterate",
+
+  "home-services-subtitle": "Our",
+  "home-services-title": "Services",
+  "home-services-box-title": "How can we support you?",
+  "home-services-cta": "See all services",
+  "home-services-box-one-title": "Research & Analysis",
+  "home-services-box-one-description": "Gain market insights with Triuum's research expertise for strategic growth.",
+  "home-services-box-two-title": "Product Strategy",
+  "home-services-box-two-description": "Enhance your digital roadmap, aligning goals with actionable plans for impactful digital initiatives.",
+  "home-services-box-three-title": "Development",
+  "home-services-box-three-description": "Realize your vision with Triuum's development team, crafting efficient and scalable solutions.",
+
+  "home-works-subtitle": "Unlocking success together",
+  "home-works-title": "Our Work",
+
+  "home-testimonials-subtitle": "client testimonials",
+  "home-testimonials-title-one": "Fueling triumph through",
+  "home-testimonials-title-two": "the evolution and growth",
+  "home-testimonials-title-three": "of our clients.",
+  "home-testimonials-box-subtitle": "Our Happy Clients",
+  "home-testimonials-box-title": "What Client's Say?",
+
+  "home-clients-subtitle": "we work together",
+  "home-clients-title": "Our Clients",
+
+  "home-contact-subtitle": "Lets Triumph Together",
+  "home-contact-title": "We would love to learn more about you and collaborate on building together. We're thrilled to hear about your vision!",
+  "home-contact-cta": "Get in touch",
+
+  "contact-header-subtitle": "Let's talk",
+  "contact-header-title": "Hello!",
+  "contact-header-description": "We would love to learn more about you and collaborate on building together.",
+
+  "contact-form-title": "Talk about your project.",
+  "contact-form-cta": "Send Message",
+  "contact-form-data-title": "Contact Info.",
+  "contact-form-data-subtitle": "Let's Talk.",
+
+  "main_language": "Español"
 }
