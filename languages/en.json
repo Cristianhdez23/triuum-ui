@@ -24,9 +24,6 @@
   "home-about-us-subtitle": "About Us",
   "home-about-us-title": "We’re Triuum",
   "home-about-us-description": "Grounded in personalization and innovation, we are driven towards crafting technological solutions that make a positive global impact, staying at the forefront of concepts and continuously evolving.",
-  "home-about-us-value-one": "We team up",
-  "home-about-us-value-two": "We create",
-  "home-about-us-value-three": "We Iterate",
 
   "home-services-subtitle": "Our",
   "home-services-title": "Services",
@@ -41,6 +38,14 @@
 
   "home-works-subtitle": "Unlocking success together",
   "home-works-title": "Our Work",
+  "home-works-title-one": "Macondo: Real estate investment platform.",
+  "home-works-description-one": "Fostering collaboration, we create adaptable, user-friendly software through the entire design process, enhancing accessibility and enabling financial growth.",
+  "home-works-title-two": "Procredit Bank Ecuador.",
+  "home-works-description-two": "Collaboratively refreshing the hybrid mobile app design, prioritizing user-centricity, streamlined navigation, and enhanced security.",
+  "home-works-title-three": "Cleverman: Men's Personal Care Marketplace.",
+  "home-works-description-three": "Modernizing checkout management with UX/UI design, front-end development, and a React component library. Enhancing website infrastructure for improved accessibility and accuracy.",
+  "home-works-title-four": "ProCredit Bank Website: Transforming Banking Experiences.",
+  "home-works-description-four": "Credesigning the website experience across platforms with a user-centric approach to ensure cohesive brand presence and enhance user understanding.",
 
   "home-testimonials-subtitle": "client testimonials",
   "home-testimonials-title-one": "Fueling triumph through",

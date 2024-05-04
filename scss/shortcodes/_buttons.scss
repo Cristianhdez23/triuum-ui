@@ -1,213 +1,218 @@
-
-
 /* ====================== [  Start Button Style ] ====================== */
 
-.btn-curve{
-	background: transparent;
-	padding: 12px 35px;
-	border: 1px solid #1e1e1e;
-	position: relative;
-	overflow: hidden;
-	cursor: pointer;
+.btn-curve {
+  background: transparent;
+  padding: 12px 25px;
+  border: 1px solid #1e1e1e;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 
-	&:focus{
-		outline: none;
-	}
+  &:focus {
+    outline: none;
+  }
 
-	&:hover{
-		outline: none;
+  &:hover {
+    outline: none;
 
-		&:after{
-			bottom: -30px;
-			transform: rotate(0deg);
-		}
+    &:after {
+      bottom: -30px;
+      transform: rotate(0deg);
+    }
 
-		span{
-			color: #fff;
-		}
-	}
+    span {
+      color: #fff;
+    }
+  }
 
-	&:after{
-		content: '';
-		position: absolute;
-		top: -30px;
-		left: -30px;
-		right: -30px;
-		bottom: 130%;
-		background: #1e1e1e;
-		transform: rotate(-5deg);
-		transition: all .8s;
-	}
+  &:after {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    right: -30px;
+    bottom: 130%;
+    background: #1e1e1e;
+    transform: rotate(-5deg);
+    transition: all 0.8s;
+  }
 
-	span{
-		font-size: 13px;
-		font-weight: 500;
-		text-transform: uppercase;
-		letter-spacing: 2px;
-		position: relative;
-		z-index: 2;
-		transition: all .8s;
-	}
+  span {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 2;
+    transition: all 0.8s;
+  }
 
-	&.btn-lit{
-		border-color: #fff;
-		color: #fff;
+  &.btn-lit {
+    border-color: #fff;
+    color: #fff;
 
-		&:hover{
+    &:hover {
+      span {
+        color: $main-color;
+      }
+    }
 
-			span{
-				color: $main-color;
-			}
-		}
+    &:after {
+      background: #fff;
+    }
+  }
 
-		&:after{
-			background: #fff;
-		}
-	}
+  &.btn-blc {
+    background: #1e1e1e;
 
-	&.btn-blc{
-		background: #1e1e1e;
+    &:after {
+      background: #fff;
+    }
 
-		&:after{
-			background: #fff;
-		}
+    span {
+      color: #fff;
+    }
 
-		span{
-			color: #fff;
-		}
+    &:hover {
+      span {
+        color: #1e1e1e;
+      }
+    }
+  }
 
-		&:hover{
-	
-			span{
-				color: #1e1e1e;
-			}
-		}
-	}
+  &.btn-color {
+    background: $main-color;
+    border-color: $main-color;
 
-	&.btn-color{
-		background: $main-color;
-		border-color: $main-color;
+    &:after {
+      background: #fff;
+    }
 
-		&:after{
-			background: #fff;
-		}
+    span {
+      color: #0c0f16;
+    }
 
-		span{
-			color: #0c0f16;
-		}
+    &:hover {
+      span {
+        color: $main-color;
+      }
+    }
+  }
 
-		&:hover{
-	
-			span{
-				color: $main-color;
-			}
-		}
-	}
+  &.btn-lg {
+    padding: 14px 40px;
 
-	&.btn-lg{
-		padding: 14px 40px;
+    span {
+      font-size: 14px;
+    }
+  }
 
-		span{
-			font-size: 14px;
-		}
-	}
+  &.btn-wit {
+    background: #fff;
+    border-color: #fff;
 
-	&.btn-wit{
-		background: #fff;
-		border-color: #fff;
+    &:after {
+      background: #090909;
+    }
 
-		&:after{
-			background: #090909;
-		}
+    span {
+      color: #1e1e1e;
+    }
 
-		span{
-			color: #1e1e1e;
-		}
+    &:hover {
+      span {
+        color: #fff;
+      }
+    }
+  }
 
-		&:hover{
-	
-			span{
-				color: #fff;
-			}
-		}
-	}
-
-	&.btn-radius{
-		border-radius: 30px;
-	}
+  &.btn-radius {
+    border-radius: 30px;
+  }
 }
 
 .btn-border {
-	display: inline-flex;
-	position: relative;
+  display: inline-flex;
+  position: relative;
 
-	&:before {
-		content: "";
-		position: absolute;
-		top: -2px;
-		left: -2px;
-		right: -2px;
-		bottom: -2px;
-		border-radius: 30px;
-		border: 2px solid transparent;
-		background: linear-gradient(114deg, rgba(246,92,0,1) 16%, rgba(157,0,208,1) 49%, rgba(148,255,229,1) 86%) border-box;
-		mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-		-webkit-mask-composite: destination-out;
-		mask-composite: exclude;
-	}
+  &:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    background: linear-gradient(
+        114deg,
+        rgba(246, 92, 0, 1) 16%,
+        rgba(157, 0, 208, 1) 49%,
+        rgba(148, 255, 229, 1) 86%
+      )
+      border-box;
+    mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+  }
 
-	&-no-radius {
-		&:before {
-			content: "";
-			border-radius: 0;
-		}
-	}
+  &-no-radius {
+    &:before {
+      content: '';
+      border-radius: 0;
+    }
+  }
 
-	& > .custom-btn {
-		border: none !important;
+  & > .custom-btn {
+    border: none !important;
 
-		& > span {
-			text-transform: initial;
-		}
-	
-		&:hover{
-			span{
-				color: #FFF !important;
-			}
-		}
-	
-		&:after{
-			background: $main-bg;
-		}
-	}
+    & > span {
+      text-transform: initial;
+    }
+
+    &:hover {
+      span {
+        color: #fff !important;
+      }
+    }
+
+    &:after {
+      background: $main-bg;
+    }
+  }
 }
 
-.simple-btn{
-	position: relative;
-	padding: 7px;
-	display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 13px;
-    font-weight: 300;
+.btn-border-white {
+  &:before {
+    background: #fff;
+  }
+}
 
-	&:after{
-		content: '';
-		width: 45%;
-		height: 100%;
-		background: rgba(255,255,255,.05);
-		position: absolute;
-		left: 0;
-		top: 0;
-	}
+.simple-btn {
+  position: relative;
+  padding: 7px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 13px;
+  font-weight: 300;
 
-	&.right{
+  &:after {
+    content: '';
+    width: 45%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
 
-		&:after{
-			left: auto;
-			right: 0;
-		}
-	}
+  &.right {
+    &:after {
+      left: auto;
+      right: 0;
+    }
+  }
 }
 
 /* ====================== [ End Button Style ] ====================== */
