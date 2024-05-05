@@ -43,7 +43,7 @@
       position: relative;
 
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         top: -30px;
         right: -20px;
@@ -143,6 +143,8 @@
 }
 
 .simpl-intro {
+  background: $main-bg;
+
   .img {
     position: relative;
 
@@ -165,7 +167,7 @@
       box-shadow: 0px 10px 50px rgba(52, 60, 70, 0.05);
 
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         top: -15px;
         left: -15px;
@@ -267,7 +269,7 @@
         transition: all 0.5s;
 
         &:after {
-          content: "";
+          content: '';
           position: absolute;
           top: 5px;
           bottom: 5px;
@@ -279,7 +281,7 @@
         }
 
         &:before {
-          content: "";
+          content: '';
           position: absolute;
           top: 5px;
           bottom: 5px;

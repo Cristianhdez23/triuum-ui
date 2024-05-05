@@ -13,6 +13,11 @@
   z-index: 7;
 }
 
+.ontop-absolute {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+}
 .full-over {
   position: absolute !important;
   top: 0;
@@ -153,6 +158,10 @@
 .flex-align-center {
   display: flex;
   align-items: center;
+}
+
+.flex-justify-center {
+  justify-content: center;
 }
 
 .flex-justify-right {
@@ -853,4 +862,76 @@
   font-weight: 700;
   line-height: 23px;
   letter-spacing: 0.3px;
+}
+
+.custom-image-size {
+  max-width: 506px;
+  max-height: 470px;
+  object-fit: cover;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.service-img-bg {
+  position: relative;
+  min-height: 387px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+.padding-all-25 {
+  padding: 25px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.custom-box {
+  padding: 0;
+  height: 100%;
+  display: flex;
+
+  & > article {
+    margin: 6px;
+    background: $box-bg;
+    border-radius: 30px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > span {
+      font-size: 40px;
+      color: $main-color;
+    }
+
+    & > h6 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.08;
+      letter-spacing: 1px;
+      text-align: center;
+    }
+
+    & > p {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 1.5;
+      text-align: center;
+    }
+  }
+}
+
+.custom-box-service {
+  padding: 48px 54px;
+  background: $secondary-bg;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+}
+
+.custom-text-service {
+  font-size: 50px !important;
 }

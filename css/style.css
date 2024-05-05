@@ -176,6 +176,12 @@ span:hover {
   z-index: 7;
 }
 
+.ontop-absolute {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+}
+
 .full-over {
   position: absolute !important;
   top: 0;
@@ -305,6 +311,10 @@ span:hover {
 .flex-align-center {
   display: flex;
   align-items: center;
+}
+
+.flex-justify-center {
+  justify-content: center;
 }
 
 .flex-justify-right {
@@ -1004,6 +1014,75 @@ span:hover {
   font-weight: 700;
   line-height: 23px;
   letter-spacing: 0.3px;
+}
+
+.custom-image-size {
+  max-width: 506px;
+  max-height: 470px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.margin-left-10 {
+  margin-left: 10px;
+}
+
+.service-img-bg {
+  position: relative;
+  min-height: 387px;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+.padding-all-25 {
+  padding: 25px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.custom-box {
+  padding: 0;
+  height: 100%;
+  display: flex;
+}
+.custom-box > article {
+  margin: 6px;
+  background: #010e3b;
+  border-radius: 30px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.custom-box > article > span {
+  font-size: 40px;
+  color: #94ffe5;
+}
+.custom-box > article > h6 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.custom-box > article > p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.custom-box-service {
+  padding: 48px 54px;
+  background: #010a2c;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+}
+
+.custom-text-service {
+  font-size: 50px !important;
 }
 
 /* ====================== [ Start Preloader ] ====================== */
@@ -3180,6 +3259,9 @@ header.simpl .caption .btn-curve {
   margin-bottom: 80px;
 }
 
+.simpl-intro {
+  background: #00071e;
+}
 .simpl-intro .img {
   position: relative;
 }
@@ -5777,7 +5859,7 @@ header.simpl .caption .btn-curve {
     display: none;
   }
   .sec-head.mb-0 {
-    margin-bottom: 80px !important;
+    margin-bottom: 60px !important;
   }
   .blog-grid .item {
     margin-bottom: 50px;
@@ -5806,6 +5888,18 @@ header.simpl .caption .btn-curve {
   }
   .border-right-custom::after {
     border-radius: 0;
+  }
+  .ontop-absolute {
+    position: relative;
+  }
+  .custom-box {
+    height: auto;
+  }
+  .custom-box-service {
+    padding: 24px 30px;
+  }
+  .custom-text-service {
+    font-size: 35px !important;
   }
 }
 @media screen and (max-width: 767px) {

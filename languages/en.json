@@ -1,5 +1,7 @@
 {
   "NAVBAR_ITEM_Contact": "Contact",
+  "NAVBAR_ITEM_Services": "Services",
+  "NAVBAR_ITEM_About": "About",
 
   "footer-address": "Address : ",
   "footer-phone": "Phone : ",
@@ -70,5 +72,49 @@
   "contact-form-data-title": "Contact Info.",
   "contact-form-data-subtitle": "Let's Talk.",
 
-  "main_language": "English"
+  "main_language": "English",
+
+  "about-header-main-title": "Nice to meet you",
+  "about-header-sub-title": "We’re Triuum",
+
+  "about-subheader-title-one": "Meaningful & Successful",
+  "about-subheader-title-two": "Digital Experiences",
+  "about-subheader-description-one": "We are a company specializing in the design and development of digital experiences and products.",
+  "about-subheader-description-two": "Our starting point is exceptional experiences tailored to the user, aiming to create memorable moments and exceed expectations by forging connections that go beyond mere usage.",
+  "about-subheader-description-three": "To achieve these results, co-creation with the client is paramount. We engage with and support our clients in identifying and addressing needs, always adhering to our core standards: quality and innovation.",
+
+  "about-values-one-eyebrown": "We are",
+  "about-values-one-title": "Adaptable",
+  "about-values-one-description": "Our adaptability shines through in our proactive approach, where we continuously analyze, understand, and adjust our processes to ensure a memorable experience for our clients.",
+  "about-values-one-description-two": "We embrace change as an opportunity for improvement, recognizing that nothing is permanent. Staying updated is essential to our success.",
+  "about-values-two-eyebrown": "We are",
+  "about-values-two-title": "Innovative",
+  "about-values-two-description": "From ideation to execution, our passion drives us to craft innovative experiences. Always forward-looking, we aim for exceptional digital outcomes, developing products and services that harness the latest technological advancements to propel business growth.",
+  "about-values-three-eyebrown": "We are",
+  "about-values-three-title": "Empathic",
+  "about-values-three-description": "We aim to deeply understand and empathize with the needs and perspectives of our clients and users, ensuring that our solutions genuinely resonate and add value. By prioritizing their input, we develop sustainable, scalable products for the future, rooted in a profound understanding of user desires, expectations, and needs.",
+
+  "services-header-main-title": "Our",
+  "services-header-sub-title": "Services",
+
+  "services-subheader-title-one": "From Concept to Code,",
+  "services-subheader-title-two": "a Collaborative Journey",
+
+  "services-main-services-title-one": "Product Design Solutions",
+  "services-main-services-description-one": "Our design team brings your vision to life. Through product strategy, user research, prototyping, and meticulous UI/UX design, we create products that are not just aesthetically pleasing, but intuitive, accessible and user-centric.",
+  "services-main-services-1-title-box-one": "Product Strategy",
+  "services-main-services-1-description-box-one": "Analyzing market trends and competitors, identifying business opportunities. Developing a clear work plan from idea to execution.",
+  "services-main-services-1-title-box-two": "Discovery",
+  "services-main-services-1-description-box-two": "Thorough research identifies user needs, pain points ensuring effective product solutions. Rapid prototyping, iterative refinement validate and enhance product.",
+  "services-main-services-1-title-box-three": "UX/UI Design",
+  "services-main-services-1-description-box-three": "Design intuitive, engaging user experiences prioritizing needs, behaviors. Create compelling interfaces for seamless interaction.",
+
+  "services-main-services-title-two": "Software development",
+  "services-main-services-description-two": "Our engineering team are the architects behind the scenes. They translate design principles into robust, scalable software that seamlessly integrates with your existing infrastructure.",
+  "services-main-services-2-title-box-one": "Customized Solutions",
+  "services-main-services-2-description-box-one": "Tailor-made software solutions designed to meet your unique business requirements and objectives.",
+  "services-main-services-2-title-box-two": "Agile Development Methodology",
+  "services-main-services-2-description-box-two": "Embrace flexibility and adaptability with our Agile approach, ensuring rapid development cycles and timely delivery of features.",
+  "services-main-services-2-title-box-three": "Quality Assurance and Testing",
+  "services-main-services-2-description-box-three": "Rigorous testing procedures to guarantee the reliability, security, and performance of your software, minimizing errors and maximizing user satisfaction."
 }

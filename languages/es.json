@@ -1,5 +1,7 @@
 {
   "NAVBAR_ITEM_Contact": "Contacto",
+  "NAVBAR_ITEM_Services": "Servicios",
+  "NAVBAR_ITEM_About": "¿Quienes somos?",
 
   "footer-address": "Dirección : ",
   "footer-phone": "Teléfono : ",
@@ -70,5 +72,49 @@
   "contact-form-data-title": "Información de contacto.",
   "contact-form-data-subtitle": "Hablemos.",
 
-  "main_language": "Español"
+  "main_language": "Español",
+
+  "about-header-main-title": "Encantado de conocerte.",
+  "about-header-sub-title": "Somos Triuum",
+
+  "about-subheader-title-one": "Experiencias Digitales",
+  "about-subheader-title-two": "Significativas y Exitosas",
+  "about-subheader-description-one": "Somos una empresa especializada en el diseño y desarrollo de experiencias en productos digitales.",
+  "about-subheader-description-two": "Nuestro punto de partida son experiencias excepcionales adaptadas al usuario, con el objetivo de crear momentos memorables y superar expectativas al forjar conexiones que van más allá del simple uso.",
+  "about-subheader-description-three": "Para lograr estos resultados, la co-creación con el cliente es fundamental. Nos comprometemos y apoyamos a nuestros clientes en la identificación y abordaje de necesidades, siempre cumpliendo con nuestros estándares fundamentales: calidad e innovación.",
+
+  "about-values-one-eyebrown": "Somos",
+  "about-values-one-title": "Adaptables",
+  "about-values-one-description": "Nuestra adaptabilidad se destaca en nuestro enfoque proactivo, donde analizamos, entendemos y ajustamos continuamente nuestros procesos para garantizar una experiencia memorable para nuestros clientes.",
+  "about-values-one-description-two": "Aceptamos el cambio como una oportunidad de mejora, reconociendo que nada es permanente. Mantenernos actualizados es esencial para nuestro éxito.",
+  "about-values-two-eyebrown": "Somos",
+  "about-values-two-title": "Innovadores",
+  "about-values-two-description": "Desde la ideación hasta la ejecución, nuestra pasión nos impulsa a crear experiencias innovadoras. Siempre mirando hacia adelante, buscamos resultados digitales excepcionales, desarrollando productos y servicios que aprovechan los últimos avances tecnológicos para impulsar el crecimiento del negocio.",
+  "about-values-three-eyebrown": "Somos",
+  "about-values-three-title": "Émpaticos",
+  "about-values-three-description": "Nos esforzamos por comprender profundamente las necesidades y perspectivas de nuestros clientes y usuarios, asegurando que nuestras soluciones resuenen genuinamente y agreguen valor. Al priorizar su aporte, desarrollamos productos sostenibles y escalables para el futuro, fundamentados en una comprensión profunda de los deseos, expectativas y necesidades del usuario.",
+
+  "services-header-main-title": "Nuestros",
+  "services-header-sub-title": "Servicios",
+
+  "services-subheader-title-one": "Desde el Concepto hasta el Código,",
+  "services-subheader-title-two": "un viaje Colaborativo",
+
+  "services-main-services-title-one": "Soluciones de Diseño de Producto",
+  "services-main-services-description-one": "Nuestro equipo de diseño da vida a tu visión. A través de la estrategia de producto, investigación de usuarios, prototipado y diseño meticuloso de UI/UX, creamos productos que no sólo son estéticamente atractivos, sino también intuitivos, accesibles y centrados en el usuario.",
+  "services-main-services-1-title-box-one": "Estrategia de Producto",
+  "services-main-services-1-description-box-one": "Analizar las tendencias del mercado y los competidores, detectando oportunidades de negocio. Desarrollar un plan de trabajo claro desde la idea hasta la ejecución.",
+  "services-main-services-1-title-box-two": "Investigación",
+  "services-main-services-1-description-box-two": "Una investigación exhaustiva identifica las necesidades y puntos de dolor del usuario, garantizando soluciones de producto efectivas. Prototipado rápido, refinamiento iterativo validan y mejoran el producto.",
+  "services-main-services-1-title-box-three": "Diseño UX/UI",
+  "services-main-services-1-description-box-three": "Diseñar experiencias de usuario intuitivas, accesibles y atractivas priorizando las necesidades y comportamientos. Crear interfaces convincentes para una interacción fluida.",
+
+  "services-main-services-title-two": "Software development",
+  "services-main-services-description-two": "Nuestro equipo de ingeniería son los arquitectos detrás de escena. Traducen los principios de diseño en software sólido y escalable.",
+  "services-main-services-2-title-box-one": "Soluciones Personalizadas",
+  "services-main-services-2-description-box-one": "Soluciones de software a medida diseñadas para cumplir con tus necesidades y objetivos de negocio.",
+  "services-main-services-2-title-box-two": "Metodología de Desarrollo Ágil",
+  "services-main-services-2-description-box-two": "Acepta la flexibilidad y la adaptabilidad con nuestra metodología Ágil, asegurando ciclos de desarrollo rápidos y entrega oportuna de funciones.",
+  "services-main-services-2-title-box-three": "Calidad y Pruebas",
+  "services-main-services-2-description-box-three": "Procedimientos rigurosos de prueba para garantizar la fiabilidad, seguridad y rendimiento de tu software, minimizando errores y maximizando la satisfacción del usuario."
 }
