@@ -1,102 +1,97 @@
-
-
 /* ====================== [ Start contact ] ====================== */
 
-.contact-sec{
+.contact-sec {
+  .form {
+    .form-group {
+      margin-bottom: 30px;
 
-    .form{
-
-        .form-group{
-            margin-bottom: 30px;
-
-            input,textarea{
-                width: 100%;
-                padding: 15px 0;
-                border: 0;
-                border-bottom: 1px solid rgba(255,255,255,.1);
-                background: transparent;
-                color: #fff;
-                font-family: 'Barlow Condensed', sans-serif;
-            }
-        }
-
-        button{
-            color: #fff;
-            font-size: 17px;
-            background: transparent;
-            border: 0;
-        }
+      input,
+      textarea {
+        width: 100%;
+        padding: 15px 0;
+        border: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        background: transparent;
+        color: #fff;
+        font-family: 'Barlow Condensed', sans-serif;
+      }
     }
+
+    button {
+      color: #fff;
+      font-size: 17px;
+      background: transparent;
+      border: 0;
+    }
+  }
 }
 
-.contact{
-    background:  $main-bg;
+.contact {
+  background: $main-bg;
 
-    .form{
-
-        input,textarea,select{
-            color: #fff;
-            width: 100%;
-            padding: 15px 0;
-            background: transparent;
-            border: 0;
-            border-bottom: 1px solid rgba(255,255,255,.3);
-        }
-
-        textarea{
-            padding: 15px;
-            min-height: 140px;
-            border: 1px solid rgba(255,255,255,.3);
-            margin-top: 30px;
-        }
+  .form {
+    input,
+    textarea,
+    select {
+      color: #fff;
+      width: 100%;
+      padding: 15px 0;
+      background: $main-bg;
+      border: 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     }
 
-    .cont-info{
-
-        h3{
-            font-size: 18px;
-            font-weight: 400;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            margin-bottom: 10px;
-        }
-
-        .item{
-
-            h5{
-                font-size: 16px;
-                font-weight: 400;
-                color: #999;
-                margin: 10px 0;
-            }
-
-            h6{
-                font-size: 14px;
-                font-weight: 300;
-                color: #999;
-                line-height: 1.7;
-            }
-        }
-
-        .social{
-
-            a{
-                width: 55px;
-                height: 55px;
-                line-height: 55px;
-                text-align: center;
-                background: rgba(255,255,255,.01);
-                border-radius: 50%;
-                margin-right: 5px;
-                font-size: 24px;
-            }
-        }
+    textarea {
+      padding: 15px;
+      min-height: 140px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      margin-top: 30px;
     }
+  }
+
+  .cont-info {
+    h3 {
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      margin-bottom: 10px;
+    }
+
+    .item {
+      h5 {
+        font-size: 16px;
+        font-weight: 400;
+        color: #999;
+        margin: 10px 0;
+      }
+
+      h6 {
+        font-size: 14px;
+        font-weight: 300;
+        color: #999;
+        line-height: 1.7;
+      }
+    }
+
+    .social {
+      a {
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.01);
+        border-radius: 50%;
+        margin-right: 5px;
+        font-size: 24px;
+      }
+    }
+  }
 }
 
-.map{
-    width: 100%;
-    height: 60vh;
+.map {
+  width: 100%;
+  height: 60vh;
 }
 
 /* ====================== [ End contact ] ====================== */

@@ -1,4 +1,5 @@
 {
+  "NAVBAR_ITEM_Home": "Home",
   "NAVBAR_ITEM_Contact": "Contact",
   "NAVBAR_ITEM_Services": "Services",
   "NAVBAR_ITEM_About": "About",
@@ -55,6 +56,7 @@
   "home-testimonials-title-three": "of our clients.",
   "home-testimonials-box-subtitle": "Our Happy Clients",
   "home-testimonials-box-title": "What Client's Say?",
+  "home-testimonials-one": "Many times it's hard to find people who provide efficient and effective service, in other words, reliable. That's what we found in Macondo working with Triuum. Receiving reliable service allowed our company to step up.",
 
   "home-clients-subtitle": "we work together",
   "home-clients-title": "Our Clients",
@@ -91,7 +93,7 @@
   "about-values-two-title": "Innovative",
   "about-values-two-description": "From ideation to execution, our passion drives us to craft innovative experiences. Always forward-looking, we aim for exceptional digital outcomes, developing products and services that harness the latest technological advancements to propel business growth.",
   "about-values-three-eyebrown": "We are",
-  "about-values-three-title": "Empathic",
+  "about-values-three-title": "Empathetic",
   "about-values-three-description": "We aim to deeply understand and empathize with the needs and perspectives of our clients and users, ensuring that our solutions genuinely resonate and add value. By prioritizing their input, we develop sustainable, scalable products for the future, rooted in a profound understanding of user desires, expectations, and needs.",
 
   "services-header-main-title": "Our",
@@ -109,7 +111,7 @@
   "services-main-services-1-title-box-three": "UX/UI Design",
   "services-main-services-1-description-box-three": "Design intuitive, engaging user experiences prioritizing needs, behaviors. Create compelling interfaces for seamless interaction.",
 
-  "services-main-services-title-two": "Software development",
+  "services-main-services-title-two": "Software Development",
   "services-main-services-description-two": "Our engineering team are the architects behind the scenes. They translate design principles into robust, scalable software that seamlessly integrates with your existing infrastructure.",
   "services-main-services-2-title-box-one": "Customized Solutions",
   "services-main-services-2-description-box-one": "Tailor-made software solutions designed to meet your unique business requirements and objectives.",

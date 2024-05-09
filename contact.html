@@ -92,32 +92,14 @@
             <!-- navbar links -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Home</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="index.html">Main Home</a>
-                            <a class="dropdown-item" href="index2.html">Creative Studio</a>
-                            <a class="dropdown-item" href="index3.html">Business Startup</a>
-                            <a class="dropdown-item" href="index4.html">One Page</a>
-                            <a class="dropdown-item" href="index5.html">Freelancer</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Portfolio</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="works.html">Mouse Info</a>
-                            <a class="dropdown-item" href="works2.html">Masonry 3 Columns</a>
-                            <a class="dropdown-item" href="works3.html">Masonry 2 Columns</a>
-                            <a class="dropdown-item" href="works4.html">Pinterest List</a>
-                        </div>
-                    </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.html" data-i18n="NAVBAR_ITEM_Services">Services</a>
+                        <a class="nav-link" href="index.html" data-i18n="NAVBAR_ITEM_Home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html" data-i18n="NAVBAR_ITEM_About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html" data-i18n="NAVBAR_ITEM_Services">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html" data-i18n="NAVBAR_ITEM_Contact">Contact</a>
@@ -198,10 +180,8 @@
 
                                     <div class="form-group">
                                         <select name="country" id="form_country">
-                                            <option value="" disabled>--Please choose a country--</option>
-                                            <option value="colombia">Colombia</option>
-                                            <option value="españa">España</option>
-                                            <option value="otro">Otro</option>
+                                            <option value="Colombia">Colombia</option>
+                                            <option value="" disabled>-------</option>
                                         </select>
                                     </div>
 
@@ -225,7 +205,7 @@
                             <h3 class="wow" data-i18n="contact-form-data-subtitle">Let's Talk.</h3>
                             <div class="item mb-40">
                                 <h5><a href="mailto:hello@triuum.com">hello@triuum.com</a></h5>
-                                <h5>+1234567899</h5>
+                                <h5>(+57) 316 3355194</h5>
                             </div>
                             <div class="social mt-50">
                                 <a href="https://www.linkedin.com/company/triuum" target="_blank"><i
@@ -273,6 +253,7 @@
 
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
+    <script src="js/fill-contact.js"></script>
 </body>
 
 </html>

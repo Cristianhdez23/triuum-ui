@@ -1,7 +1,8 @@
 {
+  "NAVBAR_ITEM_Home": "Home",
   "NAVBAR_ITEM_Contact": "Contacto",
   "NAVBAR_ITEM_Services": "Servicios",
-  "NAVBAR_ITEM_About": "¿Quienes somos?",
+  "NAVBAR_ITEM_About": "¿Quiénes somos?",
 
   "footer-address": "Dirección : ",
   "footer-phone": "Teléfono : ",
@@ -30,7 +31,7 @@
   "home-services-subtitle": "Our",
   "home-services-title": "Services",
   "home-services-box-title": "¿Cómo podemos apoyarte?",
-  "home-services-cta": "Explora todos nuestros servicios",
+  "home-services-cta": "Ver todos los servicios",
   "home-services-box-one-title": "Investigación y Análisis",
   "home-services-box-one-description": "Benefíciate de la investigación de Triuum para un crecimiento de tu negocio con conocimientos de mercado.",
   "home-services-box-two-title": "Estrategia de Producto",
@@ -55,11 +56,12 @@
   "home-testimonials-title-three": "crecimiento de nuestros clientes.",
   "home-testimonials-box-subtitle": "Our Happy Clients",
   "home-testimonials-box-title": "¿Qué opinan los clientes?",
+  "home-testimonials-one": "Muchas veces es dificil encontrar personas que presten un servicio eficaz y eficiente, en otras palabras, confiable. Eso es lo que encontramos en Macondo trabajando con Triuum. Recibir un servicio confiable le permitió a nuestra empresa subir de nivel.",
 
   "home-clients-subtitle": "trabajamos juntos",
   "home-clients-title": "Nuestros clientes",
 
-  "home-contact-subtitle": "Lets Triumph Together",
+  "home-contact-subtitle": "¿Estás listo para triunfar?",
   "home-contact-title": "Nos encantaría conocerte mejor y unir fuerzas para construir juntos ¡Estamos emocionados por escuchar tu visión!",
   "home-contact-cta": "Contáctanos",
 
@@ -74,7 +76,7 @@
 
   "main_language": "Español",
 
-  "about-header-main-title": "Encantado de conocerte.",
+  "about-header-main-title": "Encantado de conocerte",
   "about-header-sub-title": "Somos Triuum",
 
   "about-subheader-title-one": "Experiencias Digitales",
@@ -91,7 +93,7 @@
   "about-values-two-title": "Innovadores",
   "about-values-two-description": "Desde la ideación hasta la ejecución, nuestra pasión nos impulsa a crear experiencias innovadoras. Siempre mirando hacia adelante, buscamos resultados digitales excepcionales, desarrollando productos y servicios que aprovechan los últimos avances tecnológicos para impulsar el crecimiento del negocio.",
   "about-values-three-eyebrown": "Somos",
-  "about-values-three-title": "Émpaticos",
+  "about-values-three-title": "Empáticos",
   "about-values-three-description": "Nos esforzamos por comprender profundamente las necesidades y perspectivas de nuestros clientes y usuarios, asegurando que nuestras soluciones resuenen genuinamente y agreguen valor. Al priorizar su aporte, desarrollamos productos sostenibles y escalables para el futuro, fundamentados en una comprensión profunda de los deseos, expectativas y necesidades del usuario.",
 
   "services-header-main-title": "Nuestros",
