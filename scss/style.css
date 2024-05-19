@@ -2891,14 +2891,16 @@ header.simpl .caption .btn-curve {
   height: 60vh;
   margin: 20vh 0 0;
 }
-.showcase-carus .caption h1, .showcase-carus .copy-cap h1 {
+.showcase-carus .caption h1,
+.showcase-carus .copy-cap h1 {
   font-size: 90px;
   font-weight: 800;
   line-height: 1.2;
   position: relative;
   left: -120px;
 }
-.showcase-carus .caption h1 .stroke, .showcase-carus .copy-cap h1 .stroke {
+.showcase-carus .caption h1 .stroke,
+.showcase-carus .copy-cap h1 .stroke {
   color: transparent;
   -webkit-text-stroke: 1px #fff;
   transform: skewX(25deg) translateX(-100px);
@@ -2906,19 +2908,22 @@ header.simpl .caption .btn-curve {
   transition: transform 1.2s, opacity 0.3s;
   transition-delay: 0.2s;
 }
-.showcase-carus .caption h1 span, .showcase-carus .copy-cap h1 span {
+.showcase-carus .caption h1 span,
+.showcase-carus .copy-cap h1 span {
   margin-left: 40px;
   transform: skewX(-25deg) translateX(100px);
   opacity: 0;
   transition: transform 1.2s, opacity 0.3s;
   transition-delay: 0.2s;
 }
-.showcase-carus .caption .discover, .showcase-carus .copy-cap .discover {
+.showcase-carus .caption .discover,
+.showcase-carus .copy-cap .discover {
   margin-top: 50px;
   opacity: 0;
   transition: all 0.7s;
 }
-.showcase-carus .caption .discover i, .showcase-carus .copy-cap .discover i {
+.showcase-carus .caption .discover i,
+.showcase-carus .copy-cap .discover i {
   display: inline-block;
   width: 70px;
   height: 70px;
@@ -2928,19 +2933,23 @@ header.simpl .caption .btn-curve {
   border-radius: 50%;
   margin-right: 10px;
 }
-.showcase-carus .caption .discover span, .showcase-carus .copy-cap .discover span {
+.showcase-carus .caption .discover span,
+.showcase-carus .copy-cap .discover span {
   font-size: 13px;
   font-weight: 600;
 }
-.showcase-carus .swiper-slide-active .caption h1 .stroke, .showcase-carus .swiper-slide-active .copy-cap h1 .stroke {
+.showcase-carus .swiper-slide-active .caption h1 .stroke,
+.showcase-carus .swiper-slide-active .copy-cap h1 .stroke {
   transform: skewX(0) translateX(0);
   opacity: 1;
 }
-.showcase-carus .swiper-slide-active .caption h1 span, .showcase-carus .swiper-slide-active .copy-cap h1 span {
+.showcase-carus .swiper-slide-active .caption h1 span,
+.showcase-carus .swiper-slide-active .copy-cap h1 span {
   transform: skewX(0) translateX(0);
   opacity: 1;
 }
-.showcase-carus .swiper-slide-active .caption .discover, .showcase-carus .swiper-slide-active .copy-cap .discover {
+.showcase-carus .swiper-slide-active .caption .discover,
+.showcase-carus .swiper-slide-active .copy-cap .discover {
   opacity: 1;
 }
 .showcase-carus .copy-cap {
@@ -2973,14 +2982,16 @@ header.simpl .caption .btn-curve {
 .showcase-carus.circle-slide .swiper-slide .bg-img:before {
   border-radius: 50%;
 }
-.showcase-carus.circle-slide .caption, .showcase-carus.circle-slide .copy-cap {
+.showcase-carus.circle-slide .caption,
+.showcase-carus.circle-slide .copy-cap {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-.showcase-carus.circle-slide .caption h1, .showcase-carus.circle-slide .copy-cap h1 {
+.showcase-carus.circle-slide .caption h1,
+.showcase-carus.circle-slide .copy-cap h1 {
   font-size: 90px;
   display: block;
   min-width: 700px;
@@ -2988,12 +2999,14 @@ header.simpl .caption .btn-curve {
   left: -140px;
   margin: auto;
 }
-.showcase-carus.circle-slide .caption h1 .stroke, .showcase-carus.circle-slide .copy-cap h1 .stroke {
+.showcase-carus.circle-slide .caption h1 .stroke,
+.showcase-carus.circle-slide .copy-cap h1 .stroke {
   display: inline-block;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
 }
-.showcase-carus.circle-slide .caption h1 span, .showcase-carus.circle-slide .copy-cap h1 span {
+.showcase-carus.circle-slide .caption h1 span,
+.showcase-carus.circle-slide .copy-cap h1 span {
   margin-left: auto;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
@@ -3006,11 +3019,13 @@ header.simpl .caption .btn-curve {
   color: #fff;
   -webkit-text-stroke: 0;
 }
-.showcase-carus.circle-slide .caption h1 .stroke, .showcase-carus.circle-slide .copy-cap h1 .stroke {
+.showcase-carus.circle-slide .caption h1 .stroke,
+.showcase-carus.circle-slide .copy-cap h1 .stroke {
   transform: skewX(0) translateX(0);
   opacity: 1;
 }
-.showcase-carus.circle-slide .caption h1 span, .showcase-carus.circle-slide .copy-cap h1 span {
+.showcase-carus.circle-slide .caption h1 span,
+.showcase-carus.circle-slide .copy-cap h1 span {
   transform: skewX(0) translateX(0);
   opacity: 1;
 }
@@ -3099,6 +3114,30 @@ header.simpl .caption .btn-curve {
 }
 
 /* ====================== [ end showcase ] ====================== */
+.success-box-title {
+  font-size: 50px;
+}
+.success-box-desc {
+  font-size: 18px;
+}
+.success-box-btn {
+  font-size: 14px;
+}
+
+.custom-bg-logo-success {
+  height: calc(100% - 80px);
+  width: 100%;
+  position: absolute;
+  opacity: 0.06;
+  background-size: contain;
+  background-position: right;
+  right: 0;
+  top: 80px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+  -webkit-mask-image: linear-gradient(to right, black 70%, transparent 100%);
+          mask-image: linear-gradient(to right, black 70%, transparent 100%);
+}
+
 /* ====================== [ Start Intro ] ====================== */
 .about {
   background: #00071e;
@@ -4472,7 +4511,8 @@ header.simpl .caption .btn-curve {
 .testimonials .slick-dots li button {
   display: none;
 }
-.testimonials .arrows .next, .testimonials .arrows .prev {
+.testimonials .arrows .next,
+.testimonials .arrows .prev {
   position: absolute;
   right: -50px;
   top: 50%;
@@ -4486,14 +4526,16 @@ header.simpl .caption .btn-curve {
   opacity: 0;
   transition: all 0.4s;
 }
-.testimonials .arrows .next:hover, .testimonials .arrows .prev:hover {
+.testimonials .arrows .next:hover,
+.testimonials .arrows .prev:hover {
   border-color: #94ffe5;
 }
 .testimonials .arrows .prev {
   right: auto;
   left: -50px;
 }
-.testimonials:hover .arrows .next, .testimonials:hover .arrows .prev {
+.testimonials:hover .arrows .next,
+.testimonials:hover .arrows .prev {
   opacity: 1;
   right: 0;
 }
@@ -4790,6 +4832,9 @@ header.simpl .caption .btn-curve {
   position: absolute;
   opacity: 0.06;
   left: -25%;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+  -webkit-mask-image: linear-gradient(to right, black 70%, transparent 100%);
+          mask-image: linear-gradient(to right, black 70%, transparent 100%);
 }
 
 .clients-brand .item a {
@@ -5550,6 +5595,15 @@ header.simpl .caption .btn-curve {
 @media screen and (max-width: 991px) {
   .bg-img {
     background-position: center !important;
+  }
+  .success-box-title {
+    font-size: 35px;
+  }
+  .success-box-desc {
+    font-size: 15px;
+  }
+  .success-box-btn {
+    font-size: 13px;
   }
   .md-mb10 {
     margin-bottom: 10px;

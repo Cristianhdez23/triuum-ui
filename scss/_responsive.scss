@@ -8,6 +8,20 @@
     background-position: center !important;
   }
 
+  .success-box {
+    &-title {
+      font-size: 35px;
+    }
+
+    &-desc {
+      font-size: 15px;
+    }
+
+    &-btn {
+      font-size: 13px;
+    }
+  }
+
   .md-mb10 {
     margin-bottom: 10px;
   }
