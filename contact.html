@@ -40,6 +40,9 @@
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- Scripts -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 
 <body>
@@ -147,7 +150,6 @@
 
     <!-- ==================== End header ==================== -->
 
-
     <!-- ==================== Start main-content ==================== -->
 
     <div class="main-content">
@@ -162,10 +164,7 @@
 
                             <h4 class="extra-title mb-50" data-i18n="contact-form-title">Talk about your project.</h4>
 
-                            <form id="contact-form" method="post" action="contact.php">
-
-                                <div class="messages"></div>
-
+                            <form action="about.html">
                                 <div class="controls">
 
                                     <div class="form-group">
@@ -188,6 +187,8 @@
                                             required></textarea>
                                     </div>
 
+                                    <div class="g-recaptcha" data-sitekey="6LdkieEpAAAAAKCeRgz2mNU3ds7gUj_1cWWfEzp0">
+                                    </div>
 
                                     <div class="mt-30 btn-border">
                                         <button type="submit" class="btn-curve btn-lit btn-radius custom-btn"><span

@@ -926,3 +926,30 @@ window.addEventListener('DOMContentLoaded', async () => {
   console.log('DOMContentLoaded');
   updateContent(langData);
 });
+
+// Form Submit
+const form = document.querySelector('form');
+
+form?.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const captchaResponse = grecaptcha.getResponse();
+
+  if (!captchaResponse.length > 0) {
+    throw new Error('Captcha not completed');
+  }
+
+  const formData = new FormData(e.target);
+  const params = new URLSearchParams(formData);
+
+  fetch('https://httpbin.org/post', {
+    method: 'POST',
+    body: params,
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      console.log(data);
+      window.location.href = '/success.html';
+    })
+    .catch((err) => console.error(err));
+});

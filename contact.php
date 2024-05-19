@@ -1,10 +1,10 @@
 <?php
 
 // configure
-$from = $_POST['name'];
-$sendTo = 'cristianhdez2324@gmail.com'; // Add Your Email
+$from = 'Demo contact form <demo@domain.com>';
+$sendTo = 'hello@triuum.com'; // Add Your Email
 $subject = 'New message from contact form';
-$fields = array('name' => 'Name', 'subject' => 'Subject', 'email' => 'Email', 'country' => 'Country', 'message' => 'Message'); // array variable name => Text to appear in the email
+$fields = array('name' => 'Name', 'subject' => 'Subject', 'email' => 'Email', 'country' => 'country'; 'message' => 'Message'); // array variable name => Text to appear in the email
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
@@ -26,7 +26,7 @@ try
         'Reply-To: ' . $from,
         'Return-Path: ' . $from,
     );
-    
+
     mail($sendTo, $subject, $emailText, implode("\n", $headers));
 
     $responseArray = array('type' => 'success', 'message' => $okMessage);
@@ -46,6 +46,3 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 else {
     echo $responseArray['message'];
 }
-
-
-?>
