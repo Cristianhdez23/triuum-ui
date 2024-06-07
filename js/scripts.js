@@ -942,7 +942,7 @@ form?.addEventListener('submit', (e) => {
   const formData = new FormData(e.target);
   const params = new URLSearchParams(formData);
 
-  fetch('https://httpbin.org/post', {
+  fetch('https://us-central1-triuum.cloudfunctions.net/contact-us', {
     method: 'POST',
     body: params,
   })
