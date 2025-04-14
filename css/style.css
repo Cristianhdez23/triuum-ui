@@ -3324,6 +3324,13 @@ header.simpl .caption .btn-curve {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.projdtal {
+  background: #00071e;
+}
+
+.intro-section {
+  background: #00071e;
+}
 .intro-section .htit {
   font-size: 28px;
   font-weight: 500;
